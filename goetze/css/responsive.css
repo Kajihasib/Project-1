@@ -1,0 +1,139 @@
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1200px) {
+
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+.header-top-right{
+	text-align:center;
+}
+.cart, .logo{
+	text-align:center;
+	margin-bottom:20px;
+}
+.slide1-text {
+  top: 50px;
+}
+.cap-dec h1 {
+  font-size: 35px;
+}
+.cap-title h3 {
+  font-size: 30px;
+  margin: 15px 0;
+}
+.cap-readmore p {
+  margin-bottom: 30px;
+}
+}
+
+ 
+/* small mobile :320px. */
+@media (max-width: 767px) {
+.container {width:300px}
+.header-top-right{
+	text-align:center;
+}
+.header-top-right ul li {
+  margin-right: 15px;
+  margin-top: 10px;
+}
+.logo {
+  text-align: center;
+}
+.cart {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.search-box {
+  height: 140px;
+  position: absolute;
+  right: -244px;
+  width: 485px;
+}
+.search-box::before {
+  right: 51%;
+}
+.search-box input {
+  height: 40px;
+}
+.search-box button {
+  font-size: 20px;
+  height: 40px;
+  right: 40px;
+  top: 50px;
+  width: 75px;
+}
+.slide1-text {
+  top: 10px;
+}
+.cap-dec h1 {
+  font-size: 20px;
+}
+.cap-title h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+.cap-title-2 h2 {
+  font-size: 18px;
+}
+.cap-readmore p {
+  font-size: 12px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+.cap-readmore a {
+  border: 1px solid #fff;
+  border-radius: 3px;
+  font-size: 14px;
+  padding: 5px 20px;
+}
+.single-service{
+	margin-bottom:30px;
+}
+.single-deal .products-img {
+  float: none;
+  width: 100%;
+}
+.single-deal .product-content {
+  float: none;
+  width: 100%;
+}
+.single-banner{
+  margin-bottom: 30px;
+}
+.cat-banner {
+  margin-bottom: 30px;
+}
+.news-letter {
+  padding: 35px 15px;
+}
+#map {
+  height: 200px;
+}
+.footer-widget {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.single-footer {
+  margin-bottom: 30px;
+}
+.single-footer ul li span {
+  margin-left: 50px;
+}
+.single-footer ul li {
+  overflow: hidden;
+}
+.single-footer ul li > i {
+  top: 34px;
+}
+}
+ 
+/* Large Mobile :480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+.container {width:450px}
+ 
+}
